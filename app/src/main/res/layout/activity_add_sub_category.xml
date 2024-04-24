@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgglasscolor"
+    tools:context=".AddCategoryActivity">
+
+    <ImageView
+        android:id="@+id/add_Sub_category_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailTextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sub Category Name"
+        app:hintTextColor="@color/dark_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            style="@style/EditTextStyle"
+            android:id="@+id/add_Sub_category_name"
+            android:inputType="textEmailAddress"
+             />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/add_Sub_category_submit"
+        android:layout_gravity="center"
+        android:text="Submit"
+        />
+</LinearLayout>

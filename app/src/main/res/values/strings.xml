@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Smarty Home</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="REGISTER">register</string>
+    <string name="already_registered">already register</string>
+    <string name="register">register</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="password">username</string>
+    <string name="username">username</string>
+    <string name="name">Name</string>
+    <string name="MobileNumber">MobileNumber</string>
+    <string name="EmailId">EmailId</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_dashboard_navigation">DashboardNavigationActivity</string>
+    <string name="filled_box_dense">Filled box dense</string>
+    <string name="todo">TODO</string>
+    <string name="log_in">LOG IN</string>
+    <string name="email_id_or_contact_no">Email ID or Contact No</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="don_t_have_an_account">Don\'t Have an Account ?</string>
+    <string name="l_o_g_i_n">L O G I N</string>
+    <string name="signup">Signup</string>
+    <string name="make_your_home_smart">Make your Home Smart</string>
+</resources>

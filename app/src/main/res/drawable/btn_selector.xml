@@ -1,0 +1,15 @@
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" tools:ignore="ExtraText">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#79B039" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>-
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/trueblue" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>
